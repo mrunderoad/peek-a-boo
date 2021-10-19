@@ -7,4 +7,7 @@ $(document).ready(function() {
     $("#dobby-showing").fadeToggle();
     $("#dobby-hidden").fadeToggle();
   });
+  $(".clickVol").click(function() {
+    $(".volHidden").fadeToggle();
+  });
 });
