@@ -10,4 +10,17 @@ $(document).ready(function() {
   $(".clickVol").click(function() {
     $(".volHidden").fadeToggle();
   });
+
+  $("button#beach-bg").click(function() {
+    $("body").removeClass();
+    $("body").addClass("beach");
+  });
+  $("button#pisa-bg").click(function() {
+    $("body").removeClass();
+    $("body").addClass("pisa");
+  });
+  $("button#mordor-bg").click(function() {
+    $("body").removeClass();
+    $("body").addClass("mordor");
+  });
 });

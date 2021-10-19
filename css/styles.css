@@ -1,0 +1,72 @@
+#walrus-showing {
+  display: none;
+}
+
+#dobby-showing {
+  display: none;
+}
+
+.clickWalrus, .clickDobby, .clickVol {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickWalrus:hover, .clickDobby:hover, .clickVol:hover {
+  text-decoration: underline;
+}
+
+.volHidden {
+  display: none;
+}
+
+body {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.beach {
+  background-image: url(https://www.surfertoday.com/images/jamp/page/beach-quotes.jpg);
+  /* background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; */
+}
+
+.pisa {
+  background-image: url(https://livitaly-666b.kxcdn.com/wp-content/uploads/2018/03/The-Leaning-Tower-of-Pisa-Yesterday-Today-1.jpg);
+  /* background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; */
+}
+
+.mordor {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fhulkingreviewer.com%2Fhome%2Fwp-content%2Fuploads%2F2013%2F12%2FMordor_render.png&f=1&nofb=1);
+  /* background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; */
+}
+
+p {
+  background-color: honeydew;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: darkgoldenrod;
+}
+
+h2 {
+  text-align: center;
+  color: hotpink;
+}
+
+.buttons {
+  left-margin: auto;
+}
+
+
