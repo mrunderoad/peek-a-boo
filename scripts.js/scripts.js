@@ -13,14 +13,20 @@ $(document).ready(function() {
 
   $("button#beach-bg").click(function() {
     $("body").removeClass();
+    $("p").removeClass();
     $("body").addClass("beach");
+    $("p").addClass("beachText");
   });
   $("button#pisa-bg").click(function() {
     $("body").removeClass();
+    $("p").removeClass();
     $("body").addClass("pisa");
+    $("p").addClass("pisaText");
   });
   $("button#mordor-bg").click(function() {
     $("body").removeClass();
+    $("p").removeClass();
     $("body").addClass("mordor");
+    $("p").addClass("mordorText");
   });
 });

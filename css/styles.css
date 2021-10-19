@@ -8,7 +8,7 @@
 
 .clickWalrus, .clickDobby, .clickVol {
   cursor: pointer;
-  color: #0088cc;
+  color: #ffe341;
 }
 
 .clickWalrus:hover, .clickDobby:hover, .clickVol:hover {
@@ -20,6 +20,7 @@
 }
 
 body {
+  background-image: url(https://cdn.wallpapersafari.com/88/98/vVwyIz.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,7 +52,22 @@ body {
 }
 
 p {
-  background-color: honeydew;
+  /* background-color: honeydew; */
+  margin: 10px;
+  padding: 5px;
+  color: white;
+}
+
+.morderText {
+  color: white;
+}
+
+.beachText {
+  color: rgb(102, 100, 211);
+}
+
+.pisaText {
+  color: black;
 }
 
 h1 {
@@ -66,7 +82,19 @@ h2 {
 }
 
 .buttons {
-  left-margin: auto;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
+.container {
+  margin-top: 35px;
+}
+
+.pAbout {
+  max-width: 600vw;
+}
+
+.row {
+  max-width: 800vw;
+}
 
